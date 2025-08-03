@@ -1,0 +1,29 @@
+[package]
+name = "aptogotchi-contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+huy_addr = "0x2c762b935f6ab3363fcf8913b3bd8528ab7e66f9cde4d54ba26500aa2e099065"
+aptogotchi_addr="0x2c762b935f6ab3363fcf8913b3bd8528ab7e66f9cde4d54ba26500aa2e099065"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-token-objects"
+
+[dependencies.MoveStdlib]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "move-stdlib"
+
+[dependencies.AptosStdlib]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-stdlib"
