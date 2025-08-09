@@ -101,6 +101,8 @@ module huy_addr::advancedAptogotchi {
         create_aptogotchi_collection(&app_signer);
     }
 
+
+    /// Create a new collection
     fun create_aptogotchi_collection(creator: &signer) {
         create_unlimited_collection(
             creator,
